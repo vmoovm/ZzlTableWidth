@@ -1,5 +1,7 @@
 # ZzlTableWidth
 定制底部出现滚动条，可定制列宽
+原生javascript 没有依赖
+兼容ie8及以上浏览器
 
 
 # 使用方法：
