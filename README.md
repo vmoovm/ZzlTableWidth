@@ -7,8 +7,8 @@
 	new TableScroll(".ztable-js", {})
   
   \<div class="div_table bgWhite ztable-js">
-				<table border="0" cellspacing="0" cellpadding="0" data-td="20">
-					<thead>
+				\<table border="0" cellspacing="0" cellpadding="0" data-td="20">
+					\<thead>
 						<tr>
 							<th data-width="150">专业</th>
 							<th data-width="100">院系</th>
@@ -18,8 +18,8 @@
 							<th>缺勤率</th>
 							<th>专业</th>
 						</tr>
-					</thead>
-					<tbody>
+					\</thead>
+					\<tbody>
 						<tr>
 							<td>大学物理</td>
 							<td>文学院</td>
@@ -29,9 +29,9 @@
 							<td>365</td>
 							<td>大学物理</td>
 						</tr>
-					</tbody>
-				</table>
-			</div>
+					\</tbody>
+				\</table>
+			\</div>
       
       <div class="div_table bgWhite ztable-js">
 				<table border="0" cellspacing="0" cellpadding="0" data-td="20">
