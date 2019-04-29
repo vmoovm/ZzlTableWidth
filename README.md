@@ -6,11 +6,12 @@
 
 # 使用方法：
 // 设置表格列宽，并加滚动条
+	
 	<script src="js/ZzlTableWidth.js" type="text/javascript" charset="utf-8"></script>
-<script type="text/javascript">
+	<script type="text/javascript">
 	// 设置表格列宽，并加滚动条
-	new TableScroll(".ztable-js", {})
-</script>
+		new TableScroll(".ztable-js", {})
+	</script>
   
       
       	<div class="div_table bgWhite ztable-js">
