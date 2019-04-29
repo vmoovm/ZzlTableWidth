@@ -6,7 +6,8 @@
 // 设置表格列宽，并加滚动条
 	new TableScroll(".ztable-js", {})
   
-  \<div class="div_table bgWhite ztable-js">
+      
+      \<div class="div_table bgWhite ztable-js">
 				\<table border="0" cellspacing="0" cellpadding="0" data-td="20">
 					\<thead>
 						<tr>
@@ -32,7 +33,6 @@
 					\</tbody>
 				\</table>
 			\</div>
-      
       <div class="div_table bgWhite ztable-js">
 				<table border="0" cellspacing="0" cellpadding="0" data-td="20">
 					.....
