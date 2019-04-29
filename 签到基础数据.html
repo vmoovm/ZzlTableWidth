@@ -1,0 +1,344 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>签到基础数据</title>
+<link rel="stylesheet" type="text/css" href="css/global.css"/>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<script src="js/jquery-1.9.0.min.js" type="text/javascript" charset="utf-8"></script>
+</head>
+
+<body>
+
+<div class="main_box">
+		<!--<div class="tabBox">
+			<div class="tab50 current">可视化分析</div>
+			<div class="tab50">查看详情</div>
+		</div>-->
+		<div class="tabCont">
+			<div style="display:block;">
+				<div class="tab_screen_tit">
+					<div class="tab20 current">院系签到率</div>
+					<div class="tab20">专业签到率</div>
+					<div class="tab20">班级签到率</div>
+					<div class="tab20">课程签到率</div>
+					<div class="tab20">学生签到率</div>
+				</div>
+				<div class="tab_screen_cont">
+					<div class="screen bgWhite">
+						<a class="bnt_public daochu_bnt fr" href="#">导出</a>
+						<div class="screen_table">
+							<div class="screen_cell fl">
+								<select name="" class="fidselect">
+									<option value="">全校</option>
+									<option value="">资源学校</option>
+									<option value="">视频学校</option>
+									<option value="">图书学校</option>
+								</select>
+							</div>
+							<div class="screen_cell fl"><label class="fl">时间：</label>
+								<input type="text" name="" value="2018-04-02" class="fidtext_time fl" />
+								<span class="form_text fl">至</span>
+								<input type="text" name="" value="2018-04-02" class="fidtext_time fl" />
+							</div>
+							<div class="screen_cell fl"><input type="button" name="" value="确定" class="bnt_public" /></div>
+							<div class="clear"></div>
+							<div class="screen_check">
+								<label><input type="checkbox" name="" id="" value="" />签到率</label>
+								<label><input type="checkbox" name="" id="" value="" />签到次数</label>
+								<label><input type="checkbox" name="" id="" value="" />缺勤次数</label>
+								<label><input type="checkbox" name="" id="" value="" />缺勤率</label>
+							</div>
+						</div>
+					</div>
+					<div class="screen bgWhite" style="display:none;">
+						<a class="bnt_public daochu_bnt fr" href="#">导出</a>
+						<div class="screen_table">
+							<div class="screen_cell fl">
+								<select name="" class="fidselect">
+									<option value="">全校</option>
+									<option value="">资源学校</option>
+									<option value="">视频学校</option>
+									<option value="">图书学校</option>
+								</select>
+							</div>
+							<div class="screen_cell fl"><label class="fl">时间：</label>
+								<input type="text" name="" value="2018-04-02" class="fidtext_time fl" />
+								<span class="form_text fl">至</span>
+								<input type="text" name="" value="2018-04-02" class="fidtext_time fl" />
+							</div>
+							<div class="screen_cell fl"><input type="button" name="" value="确定" class="bnt_public" /></div>
+							<div class="clear"></div>
+							<div class="screen_check">
+								<label><input type="checkbox" name="" id="" value="" />签到率</label>
+								<label><input type="checkbox" name="" id="" value="" />签到次数</label>
+								<label><input type="checkbox" name="" id="" value="" />缺勤次数</label>
+								<label><input type="checkbox" name="" id="" value="" />缺勤率</label>
+							</div>
+						</div>
+					</div>
+					<div class="screen bgWhite" style="display:none;">
+						<a class="bnt_public daochu_bnt fr" href="#">导出</a>
+						<div class="screen_table">
+							<div class="screen_cell fl">
+								<select name="" class="fidselect">
+									<option value="">全校</option>
+									<option value="">资源学校</option>
+									<option value="">视频学校</option>
+									<option value="">图书学校</option>
+								</select>
+							</div>
+							<div class="screen_cell fl"><label class="fl">时间：</label>
+								<input type="text" name="" value="2018-04-02" class="fidtext_time fl" />
+								<span class="form_text fl">至</span>
+								<input type="text" name="" value="2018-04-02" class="fidtext_time fl" />
+							</div>
+							<div class="screen_cell fl"><input type="button" name="" value="确定" class="bnt_public" /></div>
+							<div class="clear"></div>
+							<div class="screen_check">
+								<label><input type="checkbox" name="" id="" value="" />签到率</label>
+								<label><input type="checkbox" name="" id="" value="" />签到次数</label>
+								<label><input type="checkbox" name="" id="" value="" />缺勤次数</label>
+								<label><input type="checkbox" name="" id="" value="" />缺勤率</label>
+							</div>
+						</div>
+					</div>
+					<div class="screen bgWhite" style="display:none;">
+						<a class="bnt_public daochu_bnt fr" href="#">导出</a>
+						<div class="screen_table">
+							<div class="screen_cell fl">
+								<select name="" class="fidselect">
+									<option value="">全校</option>
+									<option value="">资源学校</option>
+									<option value="">视频学校</option>
+									<option value="">图书学校</option>
+								</select>
+							</div>
+							<div class="screen_cell fl"><label class="fl">时间：</label>
+								<input type="text" name="" value="2018-04-02" class="fidtext_time fl" />
+								<span class="form_text fl">至</span>
+								<input type="text" name="" value="2018-04-02" class="fidtext_time fl" />
+							</div>
+							<div class="screen_cell fl"><input type="button" name="" value="确定" class="bnt_public" /></div>
+							<div class="clear"></div>
+							<div class="screen_check">
+								<label><input type="checkbox" name="" id="" value="" />签到率</label>
+								<label><input type="checkbox" name="" id="" value="" />签到次数</label>
+								<label><input type="checkbox" name="" id="" value="" />缺勤次数</label>
+								<label><input type="checkbox" name="" id="" value="" />缺勤率</label>
+							</div>
+						</div>
+					</div>
+					<div class="screen bgWhite" style="display:none;">
+						<a class="bnt_public daochu_bnt fr" href="#">导出</a>
+						<div class="screen_table">
+							<div class="screen_cell fl">
+								<select name="" class="fidselect">
+									<option value="">全校</option>
+									<option value="">资源学校</option>
+									<option value="">视频学校</option>
+									<option value="">图书学校</option>
+								</select>
+							</div>
+							<div class="screen_cell fl"><label class="fl">时间：</label>
+								<input type="text" name="" value="2018-04-02" class="fidtext_time fl" />
+								<span class="form_text fl">至</span>
+								<input type="text" name="" value="2018-04-02" class="fidtext_time fl" />
+							</div>
+							<div class="screen_cell fl"><input type="button" name="" value="确定" class="bnt_public" /></div>
+							<div class="screen_cell fl"><input type="button" name="" value="选取Top10" class="bnt_public" /></div>
+							<div class="clear"></div>
+							<div class="screen_check">
+								<label><input type="checkbox" name="" id="" value="" />签到率</label>
+								<label><input type="checkbox" name="" id="" value="" />签到次数</label>
+								<label><input type="checkbox" name="" id="" value="" />缺勤次数</label>
+								<label><input type="checkbox" name="" id="" value="" />缺勤率</label>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			<div class="div_table bgWhite ztable-js">
+				<table border="0" cellspacing="0" cellpadding="0" data-td="20">
+					<thead>
+						<tr>
+							<th data-width="150">专业</th>
+							<th data-width="100">院系</th>
+							<th data-width="80">签到次数</th>
+							<th data-width="90">签到率</th>
+							<th>缺勤次数</th>
+							<th>缺勤率</th>
+							<th>专业</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>大学物理</td>
+							<td>文学院</td>
+							<td>120</td>
+							<td>245</td>
+							<td>李百万</td>
+							<td>365</td>
+							<td>大学物理</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+				<div class="div_table bgWhite ztable-js">
+				<table border="0" cellspacing="0" cellpadding="0" data-th="100">
+					<thead>
+						<tr>
+							<th data-width="150">专业</th>
+							<th data-width="150">院系</th>
+							<th data-width="70">签到次数</th>
+							<th>签到率</th>
+							<th>缺勤次数</th>
+							<th data-width="180">缺勤率</th>
+							<th data-width="80">专业</th>
+							<th>院系</th>
+							<th>签到次数</th>
+							<th>签到率</th>
+							<th>缺勤次数</th>
+							<th>缺勤率</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>大学物理大学物理大学物理大学物理大学物理大学物理</td>
+							<td>文学院</td>
+							<td>120</td>
+							<td>245</td>
+							<td>李百万</td>
+							<td>365</td>
+							<td>大学物理</td>
+							<td>文学院</td>
+							<td>120</td>
+							<td>245</td>
+							<td>李百万</td>
+							<td>365</td>
+						</tr>
+					</tbody>
+				</table>
+				<!--<table id="ztable-js" border="0" cellspacing="0" cellpadding="0">
+					<thead>
+						<tr id="table-thCount">
+							<th >专业</th>
+							<th width="16%">院系</th>
+							<th width="16%">签到次数</th>
+							<th width="16%">签到率</th>
+							<th width="16%">缺勤次数</th>
+							<th width="16%">缺勤率</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>大学物理</td>
+							<td>文学院</td>
+							<td>120</td>
+							<td>245</td>
+							<td>李百万</td>
+							<td>365</td>
+						</tr>
+						<tr>
+							<td>大学物理</td>
+							<td>文学院</td>
+							<td>120</td>
+							<td>245</td>
+							<td>李百万</td>
+							<td>365</td>
+						</tr>
+						<tr>
+							<td>大学物理</td>
+							<td>文学院</td>
+							<td>120</td>
+							<td>245</td>
+							<td>李百万</td>
+							<td>365</td>
+						</tr>
+						<tr>
+							<td>大学物理</td>
+							<td>文学院</td>
+							<td>120</td>
+							<td>245</td>
+							<td>李百万</td>
+							<td>365</td>
+						</tr>
+						<tr>
+							<td>大学物理</td>
+							<td>文学院</td>
+							<td>120</td>
+							<td>245</td>
+							<td>李百万</td>
+							<td>365</td>
+						</tr>
+						<tr>
+							<td>大学物理</td>
+							<td>文学院</td>
+							<td>120</td>
+							<td>245</td>
+							<td>李百万</td>
+							<td>365</td>
+						</tr>
+						<tr>
+							<td>大学物理</td>
+							<td>文学院</td>
+							<td>120</td>
+							<td>245</td>
+							<td>李百万</td>
+							<td>365</td>
+						</tr>
+						<tr>
+							<td>大学物理</td>
+							<td>文学院</td>
+							<td>120</td>
+							<td>245</td>
+							<td>李百万</td>
+							<td>365</td>
+						</tr>
+						<tr>
+							<td>大学物理</td>
+							<td>文学院</td>
+							<td>120</td>
+							<td>245</td>
+							<td>李百万</td>
+							<td>365</td>
+						</tr>
+						<tr>
+							<td>大学物理</td>
+							<td>文学院</td>
+							<td>120</td>
+							<td>245</td>
+							<td>李百万</td>
+							<td>365</td>
+						</tr>
+					</tbody>
+				</table>-->
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!--<script src="js/echarts.min.js" type="text/javascript" charset="utf-8"></script>-->
+<!--<script src="js/signin_echarts.js" type="text/javascript" charset="utf-8"></script>-->
+<script type="text/javascript">
+$(function(){
+	//总
+	function tabs(tabTit,on,tabCon){
+		$(tabTit).children().click(function(){
+			$(this).addClass(on).siblings().removeClass(on);
+			var index = $(tabTit).children().index(this);
+			$(tabCon).children().eq(index).show().siblings().hide();
+		});
+	};
+	tabs(".tabBox","current",".tabCont");
+	tabs(".tab_screen_tit","current",".tab_screen_cont");
+})
+</script>
+<script src="js/ZzlTableWidth.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	// 设置表格列宽，并加滚动条
+	new TableScroll(".ztable-js", {})
+</script>
+</body>
+</html>
+

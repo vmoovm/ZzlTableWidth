@@ -1,0 +1,219 @@
+@charset "utf-8";
+/* CSS Document */
+html,body{ width:100%; height:100%;}
+body{ background:#edeff3;}
+.main_box{ padding:24px 24px 0 24px; /*width:1632px;*/ margin:0 auto; min-width: 1100px;}
+/*颜色*/
+.bgWhite{ background:#FFF; margin-bottom:24px;}
+.padding32{ padding:0 32px;}
+.colorBlue{ color:#0099FF;}
+
+/*tab*/
+.tabBox,.tab_screen_tit{ height:56px; line-height:56px; text-align:center; margin-bottom:24px;}
+.tab_screen_tit{ margin-bottom:0;}
+.tabBox>div,.tab_screen_tit>div{ background:#f5f8ff; font-size:16px; color:#b2b2b2; float:left; cursor:pointer;}
+.tabBox>div.current,.tab_screen_tit>div.current{ background:#FFF; color:#0099ff;}
+.tab50{ width:50%;}
+.tab34{ width:34%;}
+.tab33{ width:33%;}
+.tab20{ width:20%;}
+
+.tabCont{}
+.tabCont_row{}
+.module_title{ line-height:20px; font-size:16px; padding-top:30px; font-weight:600;}
+
+/*筛选*/
+.screen{ padding:0 32px;}
+.screen_table{ padding:20px 0;}
+.screen_cell{ height:28px; padding:10px 0; margin-right:60px;}
+.screen_cell label{ line-height:28px; font-size:13px; color:#4c4c4c; display:inline-block;}
+.screen_cell .fidtext{ width:170px; height:20px; line-height:20px; padding:3px 9px; border:solid #e7eaf1 1px; border-radius:3px;}
+.screen_cell .fidtext_time{ width:140px; height:20px; line-height:20px; padding:3px 9px; border:solid #e7eaf1 1px; border-radius:3px; background:url(../images/fidtext_time.png) no-repeat right center;}
+.screen_cell .fidselect{ width:200px; height:28px; line-height:28px; border:solid #e7eaf1 1px; border-radius:3px;}
+.screen_cell .form_text{ line-height:28px; font-size:13px; color:#4c4c4c; margin:0 10px;}
+
+.screen_check{ zoom:1; overflow:hidden;}
+.screen_check label{ line-height:28px; padding:10px 0; margin-right:60px; font-size:13px; color:#4c4c4c; display: block; float:left; cursor:pointer;}
+.screen_check input{ margin:0 3px 3px 0;}
+/*按钮*/
+.bnt_public{ padding:0 15px; height:28px; line-height:28px; background:#0099ff; color:#FFF; font-size:14px; text-align:center; border-radius:3px; display:inline-block; border:0 none; cursor:pointer;}
+.bnt_popcont{ width:88px; height:32px; line-height:32px; background:#0099ff; color:#FFF; font-size:14px; text-align:center; border-radius:3px; display:inline-block; border:0 none; cursor:pointer;}
+.daochu_bnt{ margin-top:30px; padding-left:26px; background:#0099ff url(../images/daochu.png) no-repeat 10px center;}
+
+.tabLeft{ width:128px;}
+.tabLeft ul{ padding:16px 0;}
+.tabLeft li{ width:64px; height:64px; padding:16px 0; margin:0 auto; -webkit-transition:all 0.2s linear; -moz-transition:all 0.2s linear; -ms-transition:all 0.2s linear; -o-transition:all 0.2s linear; transition:all 0.2s linear; cursor:pointer;}
+.tabLeft li img{ width:64px; height:64px; display:block; border-radius:50%; -webkit-transition:all 0.2s linear; -moz-transition:all 0.2s linear; -ms-transition:all 0.2s linear; -o-transition:all 0.2s linear; transition:all 0.2s linear;}
+.tabLeft li.current{ width:80px; height:80px; padding:8px 0;}
+.tabLeft li.current img{ width:80px; height:80px;}
+
+.tabLeft_cont{ width:1480px;}
+.tabLeft_left{ width:720px;}
+.tabLeft_right{ width:736px;}
+
+.geren_box{ padding:32px;}
+.geren_photos{ width:210px;}
+.geren_photos dt{ margin-bottom:10px;}
+.geren_photos dt img{ width:80px; height:80px; display:block; border-radius:50%;}
+.geren_photos dd{ line-height:24px; font-size:14px; color:#000;}
+.geren_list{ width:240px;}
+.geren_list li{ line-height:32px; font-size:13px; color:#4c4c4c;}
+.geren_numbar{ padding-top:40px; color:#333;}
+.geren_numbar dt{ font-size:13px;}
+.geren_numbar dd{ font-size:24px;}
+
+.newTab{ width:156px; height:24px; border-radius:4px; overflow:hidden; margin-top:24px;}
+.newTab li{ width:50px; height:22px; line-height:22px; border:solid #e0e0e0 1px; text-align:center; float:left; cursor:pointer;}
+.newTab li.current{ background:#7c7c80; border:solid #7c7c80 1px; color:#FFF;}
+
+.newCont{ padding:32px 0;}
+.newList{ height:200px; padding:20px; border:solid #e0e0e0 1px; border-radius:8px; overflow:hidden;}
+.new_cell{}
+.new_cell li{ height:24px; line-height:24px; padding:8px 0; font-size:13px; color:#666;}
+.new_cell_1{ width:124px; display:block; float:left;}
+.new_cell_2{ width:250px; display:block; float:left;}
+.new_cell_3{ width:124px; display:block; float:left;}
+
+/*表格*/
+.div_table{ padding:32px;}
+
+.div_table th,.div_table td{ padding:15px 0 15px 10px; line-height:24px; border-bottom:solid #ebebeb 1px; text-align:left;}
+.div_table th{ font-size:14px;}
+.div_table td{ font-size:13px;}
+.div_table tbody tr:hover{ background:#f5fbff;}
+.div_table th img{ margin-left:4px;}
+
+/*pop*/
+.maskLayer{width:100%;height:100%;filter:alpha(opacity=20);opacity:0.2;background:#000;position:absolute;z-index:996;top:0;left:0;display:none;}
+.popLayer{ width:400px; padding-bottom:16px; border:solid #ccc 1px; background-color:#FFF; position:absolute; -webkit-box-shadow:rgba(102,102,102,0.6) 0 0 10px 0; -moz-box-shadow:rgba(102,102,102,0.6) 0 0 10px 0; -ms-box-shadow:rgba(102,102,102,0.6) 0 0 10px 0; -o-box-shadow:rgba(102,102,102,0.6) 0 0 10px 0; box-shadow:rgba(102,102,102,0.6) 0 0 10px 0; z-index:999;}
+.popLayer_title{ height:49px; line-height:49px; padding:0 19px; border-bottom:solid #cce6ff 1px; background:#f5faff;}
+.popLayer_title h3{ font-size:14px; font-weight:bold;}
+.popLayer_title .delete_pop{ background:url(../images/delete_pop.png) no-repeat; width:15px; height:15px; margin-top:17px; display:block;}
+
+.bnt_pop_content{ padding:0 24px; text-align:right;}
+.bnt_pop_content .bnt_popcont{ margin-left:16px; vertical-align:top;}
+
+.editor_gldd{ padding: 50px 0; font-size:13px; text-align:center;}
+.editor_gldd .fidtext{ width:100px; height:20px; line-height:20px; padding:3px 9px; border:solid #e7eaf1 1px; border-radius:3px; margin-right:10px;}
+
+.paihang10{ padding-bottom:32px;}
+.paihang10 ul{ width:320px;}
+.paihang10 li{ height:24px; line-height:24px; padding:8px 0; padding-left:60px; font-size:13px; color:#666;}
+.paihang10 li.paihang10_thead{ font-weight:bold; color:#000; padding:20px 0 10px 60px;}
+.paihang10_1{ width:160px; display:block; float:left;}
+.paihang10_2{ width:100px; display:block; float:left;}
+
+/*基础数据*/
+.basis{ overflow:hidden; margin-bottom:24px;}
+.basis_cont{ width:804px; background:#FFFFFF;}
+.basis_title{ padding:26px 32px 0; height:28px; line-height:28px;}
+.basis_title h2{ font-size:16px; line-height:28px; font-weight:600; margin-right:20px;}
+.basis_select{ width:200px; height:28px; border:solid #e7eaf1 1px; border-radius:3px; margin-right:20px;}
+.basis_label{ margin-right:40px; font-size:13px; color:#4C4C4C;}
+.basis_label input{ margin:0 8px 3px 0;}
+.basis_pic{ width:33%; padding:24px 0;}
+.basis_pic dt{ width:100%; height:200px;}
+.basis_pic dd{ font-size:14px; color:#000; text-align:center;}
+
+.ruction_pic{ width:408px; padding:24px 0;}
+.ruction_pic dt{ width:408px; height:200px;}
+.ruction_pic dd{ font-size:14px; color:#000; text-align:center; background: rgba();}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
